@@ -1,0 +1,118 @@
+.product_image{
+  width: 20%;
+  max-width: 101px;
+}
+
+#cart_box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  margin-left: 5px;
+  justify-content: space-between;
+}
+
+#test{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+@media (min-width:769px) {
+  #test {
+    justify-content: space-evenly;
+  }
+}
+
+@media (max-width:768px) {
+  #test {
+    justify-content: center;
+  }
+}
+
+#a{
+  width: 65%;
+  min-width: 490px;
+}
+
+body{
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+  background-color: #f4f4f4;
+  padding: 20px;
+  color: #333;
+}
+
+h1 {
+  color: #444;
+  text-align: center;
+}
+
+p {
+  font-weight: bold;
+  font-size: 80%;
+}
+
+form {
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px 0px 20px 0px;
+  box-shadow: 5px 5px 5px #ccc;
+}
+
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"], input[type="number"], input[type="file"]{
+  width: 82%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  margin-top: 8px;
+  margin-bottom: 5px;
+  margin-right: 10px;
+}
+
+input[type="password"]{
+  width: 97%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  margin-top: 8px;
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  background-color: #333;
+}
+
+input[type="submit"]:hover, #button:hover {
+  background-color: #444;
+  cursor: pointer;
+}
+
+#finish{
+  min-width: 340px;
+  height: 100%;
+  width: 30%;
+  align-self: flex-start;
+}
+
+#button{
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 20px;
+}
