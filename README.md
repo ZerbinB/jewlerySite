@@ -1,5 +1,5 @@
 # jewlerySite
-Website for a ficticious jewlery store, including it's own visual design, item stock, sales system and client registration. This project was made using HTML, CSS, JavaScript, PHP and MySql.
+Website for a ficticious jewlery store, including it's own visual design, item stock, sales system and client registration. This project was made using HTML, CSS, JavaScript, PHP and MySql. All code was written within VSCode.
 
 # Requirements
 - XAMPP to access MySql;
@@ -13,3 +13,5 @@ CREATE TABLE produtos (
     quantidade INT NOT NULL,
     valor DECIMAL(10,2) NOT NULL
 )
+
+CREATE TABLE cadastroprodutos.pessoas
