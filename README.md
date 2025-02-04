@@ -14,4 +14,10 @@ CREATE TABLE produtos (
     valor DECIMAL(10,2) NOT NULL
 )
 
-CREATE TABLE cadastroprodutos.pessoas
+CREATE TABLE cadastroprodutos.pessoas (
+    id INT(6) UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(255) NOT NULL,
+    email VARCHAR(255) NOT NULL,
+    senha VARCHAR(255) NOT NULL,
+    admin TINYINT(1) NULL DEFAULT NULL
+)
